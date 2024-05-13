@@ -2,6 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(230, 100, 0);
+    height: 80px;
 }
 
 .row {
@@ -9,7 +20,36 @@
     display: flex;
 }
 
-header {
-    background-color: rgb(230, 100, 0);
+.col-33 {
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+}
+
+.row-header {
     height: 80px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+li {
+    padding: 0 5px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.col-33 img {
+    width: 250px;
+}
+
+.img-flex {
+    justify-content: center;
+}
+
+.icons-flex {
+    justify-content: flex-end;
 }
