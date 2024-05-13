@@ -10,6 +10,10 @@
     margin: 0 auto;
 }
 
+.margin-top-50px {
+    margin-top: 50px;
+}
+
 header {
     background-color: rgb(230, 100, 0);
     height: 80px;
@@ -78,23 +82,58 @@ li {
 }
 
 .perc {
+    color: white;
     background-color: red;
-    width: 40px;
-    padding: 5px;
+    width: 50px;
+    padding: 4px;
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 0;
-    left: 50px;
+    top: 450px;
+    left: 0px;
 }
 
 .sost {
+    color: white;
     background-color: green;
     width: 100px;
-    padding: 5px;
+    padding: 4px;
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 0;
-    left: 50px;
+    top: 450px;
+    left: 55px;
+}
+
+.description {
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.modello {
+    font-weight: bolder;
+}
+
+.prezzo {
+    display: flex;
+    color: red;
+    font-weight: bold;
+}
+
+.prezzo-scont {
+    padding-left: 10px;
+    color: black;
+    text-decoration-line: line-through;
+}
+
+.secondary-img {
+    display: none;
+}
+
+.secondary-img:hover {
+    display: block;
+}
+
+.primary-img:hover {
+    display: none;
 }
