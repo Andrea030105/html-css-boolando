@@ -20,10 +20,14 @@ header {
     display: flex;
 }
 
-.col-33 {
+.col-33-header {
     width: calc(100% / 3);
     display: flex;
     align-items: center;
+}
+
+.col-33 {
+    width: calc(100% / 3);
 }
 
 .row-header {
@@ -42,7 +46,7 @@ li {
     font-size: 18px;
 }
 
-.col-33 img {
+.img-logo {
     width: 250px;
 }
 
@@ -52,4 +56,45 @@ li {
 
 .icons-flex {
     justify-content: flex-end;
+}
+
+.col-33 img {
+    width: 350px;
+}
+
+.img-model {
+    position: relative;
+}
+
+.heart {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 320px;
+}
+
+.perc {
+    background-color: red;
+    width: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+
+.sost {
+    background-color: green;
+    width: 100px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 50px;
 }
