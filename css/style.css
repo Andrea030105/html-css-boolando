@@ -79,7 +79,7 @@ li {
     padding: 5px;
     position: absolute;
     top: 0;
-    left: 320px;
+    left: 365px;
 }
 
 .perc {
@@ -137,4 +137,8 @@ li {
 
 .img-model:hover .secondary-img {
     display: block;
+}
+
+.heart:hover .heart-red {
+    color: red;
 }
