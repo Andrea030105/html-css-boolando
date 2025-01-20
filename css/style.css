@@ -10,8 +10,8 @@
     margin: 0 auto;
 }
 
-.margin-top-50px {
-    margin-top: 50px;
+.margin-row-50px {
+    margin: 50px 0 50px 0;
 }
 
 .margin-right-10px {
@@ -83,11 +83,10 @@ li {
     background-color: white;
     display: flex;
     justify-content: center;
-    width: 30px;
-    padding: 5px;
+    padding: 10px;
     position: absolute;
-    top: 0;
-    left: 365px;
+    top: 12px;
+    left: 495px;
 }
 
 .perc {
@@ -98,7 +97,7 @@ li {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 450px;
+    top: 700px;
     left: 0px;
 }
 
@@ -110,7 +109,7 @@ li {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 450px;
+    top: 700px;
     left: 55px;
 }
 
@@ -154,8 +153,8 @@ li {
 footer {
     background-color: black;
     color: white;
-    height: 80px;
-    padding-top: 20px;
+    height: 100px;
+    padding: 20px 0 20px 0;
     line-height: 2;
 }
 
