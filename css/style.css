@@ -53,6 +53,11 @@ ul {
     color: white;
 }
 
+ul a{
+    color: white;
+    text-decoration: none;
+}
+
 li {
     padding: 0 5px;
     font-weight: bolder;
